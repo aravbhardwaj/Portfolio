@@ -11,6 +11,22 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:wght@200&display=swap' rel='stylesheet'>
     <link rel="stylesheet" href="./main.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'herobg': "url('/assets/herobg.png')",
+                        'prone': "url('/assets/p1.png')",
+                        'edu' : "url('/assets/education.png')",
+                    },
+                    fontFamily:{
+                        'raleway':['Raleway','sans-serif']
+                    },
+                },
+             },
+        }
+    </script>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');

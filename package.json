@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
-    "predeploy": "npm run start",
-    "deploy": "gh-pages -d start"
+    "build" : "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",

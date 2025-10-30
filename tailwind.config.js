@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'herobg': "url('/assets/herobg.png')",
+        'herobg': "url('https://i.ibb.co/ZpzfB7Fp/herobg.png')",
         'prone': "url('/assets/p1.png')",
         'edu' : "url('/assets/education.png')",
         'tcdox' : "url('/assets/techdox.png')"
